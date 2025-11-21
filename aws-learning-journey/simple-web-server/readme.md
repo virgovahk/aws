@@ -6,6 +6,7 @@ Built a simple web server on an AWS EC2 instance to learn about:
 - Security groups
 - Basic server configuration
 - Budgeting alerts (zero spend, custom $10 budget with a alert at 50%)
+- Getting familiar with a similar service (Amplify)
 
 ## What I Built
 A simple web server environment. Placed an EC2 instance in a public subnet accessible from the internet, installed Apache HTTP Server using a script. The page displayed "It works!".
@@ -25,24 +26,32 @@ A simple web server environment. Placed an EC2 instance in a public subnet acces
             yum install -y httpd
             systemctl start httpd
         ```
-
-3. Deployed simple "It works!" page
+    - Displayed a simple "it works!" page
+3. Made a Amplify App
+    - uploaded pre-prepared HTML files.
 
 ## AWS Services Used
 - EC2 (t3.micro - free tier)
 - VPC
+- Amplify
 - AWS budgets
   
 ## What I Learned
 - How to make a VPC
 - How to launch and configure EC2 instances
+- How to make a Amplify App
 - How to make budgeting alerts
-- Always terminate instances when done.
+- Always terminate instances when done
+- There are multiple ways to achieve one goal
+- Its important to select appropriate services according to requirements
 
 ## Resource Cleanup
 - ✅ EC2 Instance terminated
 - ✅ VPC deleted
+- ✅ Amplify App deleted
 
+
+## Screenshots
 
 ## Date
 November 19, 2025
