@@ -9,7 +9,7 @@ Built a simple web server on an AWS EC2 instance to learn about:
 - Getting familiar with a similar service (Amplify)
 
 ## What I Built
-A simple web server environment. Placed an EC2 instance in a public subnet accessible from the internet, installed Apache HTTP Server using a script. The page displayed "It works!".
+A simple web server environment. Placed an EC2 instance in a public subnet accessible from the internet, installed Apache HTTP Server using a script. The page displayed "It works!". Also deployed a AWS Amplify serverless static website as an alternative approach to EC2.
 
 ## Steps Taken
 1. Made a VPC
@@ -34,7 +34,7 @@ A simple web server environment. Placed an EC2 instance in a public subnet acces
 - EC2 (t3.micro - free tier)
 - VPC
 - Amplify
-- AWS budgets
+- AWS Budgets
   
 ## What I Learned
 - How to make a VPC
@@ -54,7 +54,6 @@ A simple web server environment. Placed an EC2 instance in a public subnet acces
 
 ### VPC Dashboard
 ![VPC Dashboard](screenshots/vpc-dashboard.png)
-*VPC configuration showing the public subnet setup*
 
 ### EC2 Instance Dashboard  
 ![EC2 Dashboard](screenshots/ec2-dashboard.png)
@@ -63,6 +62,13 @@ A simple web server environment. Placed an EC2 instance in a public subnet acces
 ### Apache "It Works!" Page
 ![It Works Page](screenshots/it-works.png)
 *Default Apache page confirming successful server deployment*
+
+### Amplify Dashboard
+![Amplify Dashboard](screenshots/amplify-overview.png)
+
+### Amplify "Hello World" Page
+![Hello World Page](screenshots/amplify-page.png)
+*Static website hosted with Amplify, demonstrating a serverless alternative to EC2*
 
 ## Date
 November 19, 2025
