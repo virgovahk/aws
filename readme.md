@@ -17,4 +17,4 @@ Every project README includes:
 - Steps taken to build it
 - AWS services used
 - Learning outcomes
-- screenshots
+- Screenshots
